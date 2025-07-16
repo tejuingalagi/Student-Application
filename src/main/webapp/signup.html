@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signup Form</title>
+    <style>
+        h2 {
+            text-align: center;
+        }
+        h3 {
+            text-align: center;
+            color: blue;
+        }
+        table {
+            margin: auto;
+            padding: 20px;
+            border-radius: 8px;
+           
+        }
+        td {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Pentagon Space</h2>
+    <h3>Application form</h3>
+
+    <form action="signup" method="post">
+        <table>
+            <tr>
+                <td>Enter your Name:</td>
+                <td><input type="text" name="name" required></td>
+            </tr>
+            <tr>
+                <td>Enter the Phone number:</td>
+                <td><input type="text" name="phone" ></td>
+            </tr>
+            <tr>
+                <td>Enter the Mail ID:</td>
+                <td><input type="email" name="mail" ></td>
+            </tr>
+            <tr>
+                <td>Enter the Branch:</td>
+                <td><input type="text" name="branch" ></td>
+            </tr>
+            <tr>
+                <td>Enter the Location:</td>
+                <td><input type="text" name="location" ></td>
+            </tr>
+            <tr>
+                <td>Enter the Password:</td>
+                <td><input type="password" name="password" ></td>
+            </tr>
+            <tr>
+                <td>Confirm the Password:</td>
+                <td><input type="password" name="confirm" ></td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <input type="submit" value="Create Account">
+                </td>
+                <td  align="center">
+                    Already have an account? <a href="login.html">Login</a>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
